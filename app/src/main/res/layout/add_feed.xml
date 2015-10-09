@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#65e6db"
+    android:id="@+id/addfeed">
+
+    <EditText
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:text="Add your title here"
+        android:id="@+id/add_title"
+        android:layout_weight="0.10"
+        android:editable="true" />
+
+    <EditText
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:text="Add your description here."
+        android:id="@+id/add_desc"
+        android:layout_weight="0.11"
+        android:editable="true" />
+
+    <EditText
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:text="Add your url here"
+        android:id="@+id/add_url"
+        android:layout_weight="0.11"
+        android:editable="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/button5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to the list"
+        android:id="@+id/button6" />
+
+    <TextView
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:text="Type Title/Name for your feed. Then type description and finally url. Remember to use http://www. and .xml .Example (http://www.iltalehti.fi/rss/kotimaa.xml)"
+        android:id="@+id/add_helptext"
+        android:layout_weight="0.04" />
+</LinearLayout>

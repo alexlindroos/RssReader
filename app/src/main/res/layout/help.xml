@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#65e6db"
+    android:id="@+id/help">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="This is my RSS Reader what I did in Metropolia Mobile Solutions course."
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Press Start to start using the RSS Reader."
+        android:id="@+id/textView3"
+        android:layout_weight="0.10" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. You have 10 different IltaLehti news in listview. You have also option to add feed if you want to by pressing Add Feed-button."
+        android:id="@+id/textView4"
+        android:layout_weight="0.11" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Press > - button next to a news to start read the latest news about it."
+        android:id="@+id/textView5"
+        android:layout_weight="0.12" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. You can mark news as read or give it a rating."
+        android:id="@+id/textView6"
+        android:layout_weight="0.12" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5. Enjoy this RSS Reader."
+        android:id="@+id/textView7"
+        android:layout_weight="0.12" />
+
+</LinearLayout>
